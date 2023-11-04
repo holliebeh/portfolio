@@ -12,6 +12,18 @@ body {
     padding: 32px;
 }
 
+.index-body {
+    background: #ffdeac;
+}
+
+.work-body {
+    background: #ffffab;
+}
+
+.contact-body {
+    background: #ffafe8;
+}
+
 /* Container for centring the content */
 .container {
     max-width: 1200px;
@@ -79,7 +91,7 @@ main {
 }
 
 .intro-text h1 {
-    color: rgba(255, 0, 161, 1); /* Pink color for the heading */
+    color: rgb(255 100 212) /* Pink color for the heading */
 }
 
 .intro-text p {
@@ -92,7 +104,7 @@ main {
 
 /* Style for active link */
 .active {
-    color: rgba(255, 0, 161, 1); /* Pink color for the heading */
+    color: rgb(255 100 212) /* Pink color for the heading */
 }
 
 
@@ -116,6 +128,7 @@ main {
         flex-direction: row; /* Align navigation items in a row */
         justify-content: center; /* Center navigation items */
         margin-top: 0; /* Reset margin top */
+        align-items: center;
     }
 
     nav a {
